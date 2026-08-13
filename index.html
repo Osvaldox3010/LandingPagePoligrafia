@@ -615,7 +615,7 @@ textarea:focus-visible{
   letter-spacing:-.01em;
   max-width:420px;
 }
-.applications__desc{ margin-top:12px; color:var(--text-gray); max-width:360px; font-size:15.5px; }
+.applications__desc{ margin-top:12px; color:var(--text-gray); max-width:560px; font-size:15.5px; }
 .applications__controls{ display:flex; align-items:center; gap:10px; flex:none; }
 .carousel-btn{
   width:44px; height:44px;
@@ -1315,8 +1315,8 @@ section[id]{ scroll-margin-top:88px; }
     <div class="applications__head">
       <div>
         <p class="eyebrow" style="margin-bottom:14px;"><span class="dot"></span>SIGNAL / 02</p>
-        <h2 class="applications__title">Aplicaciones de confianza</h2>
-        <p class="applications__desc">Soluciones poligráficas adaptadas a diferentes necesidades con el mismo nivel de profesionalismo.</p>
+        <h2 class="applications__title">Evaluaciones de control de confianza</h2>
+        <p class="applications__desc">Las pruebas de control de confianza son un conjunto de evaluaciones —psicológicas, poligráficas, toxicológicas, socioeconómicas y de antecedentes penales— implementadas con el objetivo de prevenir riesgos internos como robos o filtración de información. Garantizan que el personal de nuevo ingreso cumpla con los valores y principios de la organización, así mismo verifican que el personal activo actúe dentro del marco organizacional.</p>
       </div>
       <div class="applications__controls">
         <button class="carousel-btn" id="carouselPrev" aria-label="Anterior">
@@ -1917,10 +1917,11 @@ section[id]{ scroll-margin-top:88px; }
      Applications carousel
   --------------------------------------------------------- */
   var appData = [
-    { title:'Evaluaciones laborales', icon:'m1', gradient:'linear-gradient(150deg,#2A2C34,#5A5966 60%,#8A7894 130%)' },
-    { title:'Investigaciones internas', icon:'m2', gradient:'linear-gradient(150deg,#20222A,#8A7894 60%,#E49A82 130%)' },
-    { title:'Casos particulares', icon:'m1', gradient:'linear-gradient(150deg,#3A3C44,#D97F65 70%,#E9E2EA 130%)' },
-    { title:'Asesoría especializada', icon:'m3', gradient:'linear-gradient(150deg,#20222A,#6E5F79 60%,#D9D4CF 130%)' }
+    { title:'Poligrafía', icon:'m1', gradient:'linear-gradient(150deg,#2A2C34,#5A5966 60%,#8A7894 130%)' },
+    { title:'Estudio socioeconómico', icon:'m2', gradient:'linear-gradient(150deg,#20222A,#8A7894 60%,#E49A82 130%)' },
+    { title:'Psicometría', icon:'m3', gradient:'linear-gradient(150deg,#3A3C44,#D97F65 70%,#E9E2EA 130%)' },
+    { title:'Toxicología', icon:'m2', gradient:'linear-gradient(150deg,#20222A,#6E5F79 60%,#D9D4CF 130%)' },
+    { title:'Antecedentes penales', icon:'m1', gradient:'linear-gradient(150deg,#2E2A2C,#8A7894 65%,#E9E2EA 130%)' }
   ];
   var icons = {
     m1:'<svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="7" r="3.4" stroke="currentColor" stroke-width="1.4"/><path d="M3.5 17C3.5 13 6.4 11 10 11C13.6 11 16.5 13 16.5 17" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>',
